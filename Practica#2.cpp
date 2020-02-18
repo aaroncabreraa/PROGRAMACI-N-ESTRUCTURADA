@@ -12,7 +12,6 @@ int main()
 	scanf("%d", &num1);
 	printf("\n\n\nIntroduzca el segundo numero positivo o negativo: \n");
 	scanf("%d", &num2);
-	char cad[10], carM, carm;
 	
 	suma= num1+num2; 
 	resta= num1-num2;
@@ -30,6 +29,7 @@ int main()
 			printf("\n\n%d es igual que el segundo numero\n", num1);
 		else
 			printf("\n\n%d es menor que el segundo numero\n", num1);
+		
 		
 	getche();
 	system("pause");
